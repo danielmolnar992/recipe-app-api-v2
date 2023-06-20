@@ -1,11 +1,11 @@
 """
 Django admin customization.
-Superuser: dani@dani.com, dani.
 """
-from core import models
 from django.contrib import admin  # noqa
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.utils.translation import gettext_lazy as _
+
+from core import models
 
 
 class UserAdmin(BaseUserAdmin):

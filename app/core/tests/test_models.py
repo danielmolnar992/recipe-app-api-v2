@@ -4,9 +4,10 @@ Tests for models.
 from decimal import Decimal
 from unittest.mock import patch
 
-from core import models
 from django.contrib.auth import get_user_model
 from django.test import TestCase
+
+from core import models
 
 
 def create_user(email='user@example.com', password='testpass123'):

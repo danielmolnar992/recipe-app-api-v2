@@ -1,15 +1,16 @@
 """
 Views for the recipe APIs.
 """
-from core.models import Ingredient, Recipe, Tag
 from drf_spectacular.utils import (OpenApiParameter, OpenApiTypes,
                                    extend_schema, extend_schema_view)
-from recipe import serializers
 from rest_framework import mixins, status, viewsets
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.decorators import action
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
+
+from core.models import Ingredient, Recipe, Tag
+from recipe import serializers
 
 
 @extend_schema_view(
