@@ -10,6 +10,7 @@ Recipe API project with Docker<br>
 - Django 4 framework
 - DRF Spectecular to create swagger and documentation
 - Flake8, isort for linting support
+- Github Actions for testing and linting checks
 
 
 ## Usage:
