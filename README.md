@@ -1,6 +1,7 @@
 # recipe-app-api-v2
 
 Recipe API project with Docker<br>
+It was developed by Test Driven Development approach.
 
 ## Stack:
 
