@@ -9,7 +9,7 @@ It was developed by Test Driven Development approach.
 - Postgres 13
 - Docker
 - Django 4 framework
-- DRF Spectecular to create swagger and documentation
+- DRF Spectacular to create swagger and documentation
 - Flake8, isort for linting support
 - Github Actions for testing and linting checks
 
